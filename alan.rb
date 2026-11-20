@@ -1,18 +1,18 @@
 class Alan < Formula
   desc "The Human-Centric Programming Language"
   homepage "https://alan.eidansoftwares.in"
-  version "1.0.4"
+  version "1.0.5"
   license "Proprietary"
 
   if OS.mac?
-    url "https://alan.eidansoftwares.in/downloads/alan-v1.0.4-macos-universal.tar.gz"
-    sha256 "28179aad84e5a38f633a00296b67dd8fa82b75bdb2d5387ecf7b1ea98627113e"
+    url "https://alan.eidansoftwares.in/downloads/alan-v1.0.5-macos-universal.tar.gz"
+    sha256 "e816a6e7a47f3e883b63ff54ede103133a9d77602e0625ae813d26b1a421a845"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://alan.eidansoftwares.in/downloads/alan-v1.0.4-linux-x86_64.tar.gz"
-    sha256 "7de4a1e2c7f021ad09e34d2f30e84c059b170c6ffb2a0104f3f222bab45fd17b"
+    url "https://alan.eidansoftwares.in/downloads/alan-v1.0.5-linux-x86_64.tar.gz"
+    sha256 "9c4a806daefd4ac4418d272d0e3214eef0063ca19f735eb963984791e5a6e7c8"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://alan.eidansoftwares.in/downloads/alan-v1.0.4-linux-aarch64.tar.gz"
-    sha256 "7fc72686933d6ee362fb674d0a12a0c5931a8c22543add3d4b5145c150543f2a"
+    url "https://alan.eidansoftwares.in/downloads/alan-v1.0.5-linux-aarch64.tar.gz"
+    sha256 "2291ecb838177b2f7079d480b1d6e0038e6d469e5b4b06ca83b58860b27a1fce"
   end
 
   def install
