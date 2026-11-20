@@ -6,13 +6,13 @@ class Alan < Formula
 
   if OS.mac?
     url "https://alan.eidansoftwares.in/downloads/alan-v1.0.4-macos-universal.tar.gz"
-    sha256 "9a86e3f593c6315819bd7d37b5602047ad9227b955e2dc17a538e1c408dcbc3b"
+    sha256 "28179aad84e5a38f633a00296b67dd8fa82b75bdb2d5387ecf7b1ea98627113e"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://alan.eidansoftwares.in/downloads/alan-v1.0.4-linux-x86_64.tar.gz"
-    sha256 "7d7ea32451b2702f3cffa6bdfd63d869817d1d2408931ceda6dccabf5b78b342"
+    sha256 "7de4a1e2c7f021ad09e34d2f30e84c059b170c6ffb2a0104f3f222bab45fd17b"
   elsif OS.linux? && Hardware::CPU.arm?
     url "https://alan.eidansoftwares.in/downloads/alan-v1.0.4-linux-aarch64.tar.gz"
-    sha256 "07df82612ca6fae292f4873eb9c3439acbc3d8b39a614beaf638324d9dd51ef6"
+    sha256 "7fc72686933d6ee362fb674d0a12a0c5931a8c22543add3d4b5145c150543f2a"
   end
 
   def install
